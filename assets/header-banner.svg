@@ -1,0 +1,77 @@
+<svg width="100%" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="50%" stop-color="#11172b"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2EA3F7" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#2EA3F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <circle cx="600" cy="150" r="280" fill="url(#glow)"/>
+
+  <!-- subtle static neural-network backdrop -->
+  <g stroke="#2EA3F7" stroke-opacity="0.14" stroke-width="1">
+    <line x1="80" y1="55" x2="220" y2="110"/>
+    <line x1="220" y1="110" x2="150" y2="200"/>
+    <line x1="220" y1="110" x2="340" y2="85"/>
+    <line x1="930" y1="65" x2="1060" y2="100"/>
+    <line x1="1060" y1="100" x2="1010" y2="195"/>
+    <line x1="1060" y1="100" x2="1150" y2="75"/>
+  </g>
+  <g fill="#58A6FF" fill-opacity="0.45">
+    <circle cx="80" cy="55" r="3"/>
+    <circle cx="220" cy="110" r="4"/>
+    <circle cx="150" cy="200" r="3"/>
+    <circle cx="340" cy="85" r="3"/>
+    <circle cx="930" cy="65" r="3"/>
+    <circle cx="1060" cy="100" r="4"/>
+    <circle cx="1010" cy="195" r="3"/>
+    <circle cx="1150" cy="75" r="3"/>
+  </g>
+
+  <!-- code-bracket accents -->
+  <text x="45" y="190" font-family="Fira Code, monospace" font-size="56" fill="#2EA3F7" fill-opacity="0.10" font-weight="700">&lt;/&gt;</text>
+  <text x="1045" y="120" font-family="Fira Code, monospace" font-size="56" fill="#A78BFA" fill-opacity="0.10" font-weight="700">{ }</text>
+
+  <!-- main heading -->
+  <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="50" font-weight="800" fill="url(#textGrad)">
+    Chetan Dixit
+  </text>
+
+  <!-- professional subtitle -->
+  <text x="600" y="182" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#9aa7c2" letter-spacing="0.4">
+    Machine Learning Engineer &#160;•&#160; Java Developer &#160;•&#160; Building Intelligent Recommendation Systems
+  </text>
+
+  <!-- static divider -->
+  <rect x="460" y="202" width="280" height="2.5" rx="1" fill="url(#textGrad)" opacity="0.8"/>
+
+  <!-- tech chips -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">
+    <g transform="translate(395,232)">
+      <rect width="74" height="26" rx="13" fill="#161b2e" stroke="#2EA3F7" stroke-opacity="0.4"/>
+      <text x="37" y="18" text-anchor="middle" fill="#9ecbff">Java</text>
+    </g>
+    <g transform="translate(479,232)">
+      <rect width="86" height="26" rx="13" fill="#161b2e" stroke="#A78BFA" stroke-opacity="0.4"/>
+      <text x="43" y="18" text-anchor="middle" fill="#cdbcff">Python</text>
+    </g>
+    <g transform="translate(575,232)">
+      <rect width="116" height="26" rx="13" fill="#161b2e" stroke="#2EA3F7" stroke-opacity="0.4"/>
+      <text x="58" y="18" text-anchor="middle" fill="#9ecbff">TensorFlow</text>
+    </g>
+    <g transform="translate(701,232)">
+      <rect width="104" height="26" rx="13" fill="#161b2e" stroke="#A78BFA" stroke-opacity="0.4"/>
+      <text x="52" y="18" text-anchor="middle" fill="#cdbcff">Deep Learning</text>
+    </g>
+  </g>
+</svg>
