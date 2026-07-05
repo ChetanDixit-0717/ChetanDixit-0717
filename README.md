@@ -143,13 +143,6 @@ A command-line based student management system built in Python, supporting full 
 
 </div>
 
-| 📊 Stat | Value |
-|---|---|
-| ✅ Problems Solved | 101 (Java: 100 · Python: 1) |
-| 🏅 Badges | 1 — *50 Days Badge 2026* |
-| 🧠 Strongest Areas | Array, Two Pointers, String, Math, Hash Table |
-| 📈 Advanced Topics | Dynamic Programming, Divide & Conquer, Backtracking |
-
 ---
 
 ## Achievements & Highlights
@@ -165,10 +158,8 @@ A command-line based student management system built in Python, supporting full 
 
 | Certification | Issuer | Status |
 |---|---|---|
-| Machine Learning Specialization | DeepLearning.AI / Coursera | _Add completion link/date_ |
-| Deep Learning Specialization | DeepLearning.AI | _Add completion link/date_ |
-| Kaggle Certificates (Python / Pandas / Intro to ML) | Kaggle | _Add certificate links_ |
-| Amazon ML Summer School | Amazon | _Add if selected_ |
+| Machine Learning Specialization | DeepLearning.AI / Coursera |...|
+| [Pandas](https://www.kaggle.com/learn/certification/chetan0717/pandas) | Kaggle | ✅ Completed |
 
 ---
 
