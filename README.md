@@ -160,17 +160,6 @@ A machine learning classification project with a full scikit-learn workflow, fro
 
 ---
 
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ChetanDixit-0717&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChetanDixit-0717&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Most used languages" width="49%" />
-
-</div>
-
----
-
 ## DSA and LeetCode
 
 <div align="center">
